@@ -1,0 +1,10 @@
+# dependencies
+node_modules/
+
+# build output
+/dist
+
+# environment variables
+.env
+.env.development.local
+.env.production.local

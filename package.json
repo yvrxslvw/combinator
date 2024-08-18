@@ -1,0 +1,20 @@
+{
+	"name": "combinator",
+	"description": "The game, the idea of which is taken from the game Combinator from Yandex Plus City.",
+	"author": "yvrxslvw",
+	"version": "0.0.1",
+	"license": "MIT",
+	"private": true,
+	"workspaces": [
+		"./packages/*"
+	],
+	"scripts": {
+		"dev:client": "yarn workspace client dev",
+		"build:client": "yarn workspace client build",
+		"lint:client": "yarn workspace client lint",
+		"build:server": "yarn workspace server build",
+		"dev:server": "yarn workspace server dev",
+		"prod:server": "yarn workspace server prod",
+		"lint:server": "yarn workspace server lint"
+	}
+}
